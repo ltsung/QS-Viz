@@ -1,0 +1,411 @@
+{
+    "children": [
+        {
+            "name": "Getting settled at the conference hotel before dinner",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "Getting settled at the conference hotel before dinner"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "resting",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "resting"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 10
+            }
+        },
+        {
+            "name": "resting,eating",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "resting,eating"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": ""
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 9
+            }
+        },
+        {
+            "name": "training",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "training"
+            },
+            "map": {
+                "color": null,
+                "size": 3
+            }
+        },
+        {
+            "name": "eating",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "eating"
+            },
+            "map": {
+                "color": "restaurant chairs,crowd",
+                "size": 6
+            }
+        },
+        {
+            "name": "designing",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "designing"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 13
+            }
+        },
+        {
+            "name": "walking",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "walking"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "checking out",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "checking out"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "waiting for flight",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "waiting for flight"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "BARTing",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "BARTing"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "emailing",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "emailing"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "getting ready",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "getting ready"
+            },
+            "map": {
+                "color": "bed",
+                "size": 9
+            }
+        },
+        {
+            "name": "reflecting",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting"
+            },
+            "map": {
+                "color": null,
+                "size": 12
+            }
+        },
+        {
+            "name": "coding for fun",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "coding for fun"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 4
+            }
+        },
+        {
+            "name": "family party",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "family party"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "reflecting,emailing",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting,emailing"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 1
+            }
+        },
+        {
+            "name": "meeting",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "meeting"
+            },
+            "map": {
+                "color": "studio,desks",
+                "size": 5
+            }
+        },
+        {
+            "name": "hanging out",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "hanging out"
+            },
+            "map": {
+                "color": "cafe",
+                "size": 3
+            }
+        },
+        {
+            "name": "coding",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "coding"
+            },
+            "map": {
+                "color": "studio,desks",
+                "size": 4
+            }
+        },
+        {
+            "name": "playing threes",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "playing threes"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 4
+            }
+        },
+        {
+            "name": "reflecting,talking on phone",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting,talking on phone"
+            },
+            "map": {
+                "color": "phone",
+                "size": 1
+            }
+        },
+        {
+            "name": "reflecting,walking",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting,walking"
+            },
+            "map": {
+                "color": "cars,parking lot",
+                "size": 1
+            }
+        },
+        {
+            "name": "reflecting,designing",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting,designing"
+            },
+            "map": {
+                "color": "bathroom",
+                "size": 2
+            }
+        },
+        {
+            "name": "reflecting,resting",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting,resting"
+            },
+            "map": {
+                "color": "bed",
+                "size": 1
+            }
+        },
+        {
+            "name": "praying",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "praying"
+            },
+            "map": {
+                "color": "bed",
+                "size": 1
+            }
+        },
+        {
+            "name": "watching a movie",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "watching a movie"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 3
+            }
+        },
+        {
+            "name": "resting,reading the bible",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "resting,reading the bible"
+            },
+            "map": {
+                "color": "bed,phone,bible",
+                "size": 1
+            }
+        },
+        {
+            "name": "driving",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "driving"
+            },
+            "map": {
+                "color": "cars",
+                "size": 1
+            }
+        },
+        {
+            "name": "waiting for food",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "waiting for food"
+            },
+            "map": {
+                "color": "cafe setting",
+                "size": 1
+            }
+        },
+        {
+            "name": "resting,reflecting,listening to Church podcast",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "resting,reflecting,listening to Church podcast"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 1
+            }
+        },
+        {
+            "name": "shopping",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "shopping"
+            },
+            "map": {
+                "color": "parking lot",
+                "size": 1
+            }
+        },
+        {
+            "name": "reflecting,getting ready",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "reflecting,getting ready"
+            },
+            "map": {
+                "color": null,
+                "size": 1
+            }
+        },
+        {
+            "name": "listening to Church podcast",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "listening to Church podcast"
+            },
+            "map": {
+                "color": "bed,laptop",
+                "size": 2
+            }
+        },
+        {
+            "name": "hanging out,reflecting",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "hanging out,reflecting"
+            },
+            "map": {
+                "color": "streets",
+                "size": 1
+            }
+        },
+        {
+            "name": "hanging out,eating",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "hanging out,eating"
+            },
+            "map": {
+                "color": "restaurant chairs,dishes",
+                "size": 1
+            }
+        },
+        {
+            "name": "showering",
+            "class": "What are you doing?",
+            "path": {
+                "What are you doing?": "showering"
+            },
+            "map": {
+                "color": "bathroom",
+                "size": 1
+            }
+        }
+    ]
+}

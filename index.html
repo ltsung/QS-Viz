@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<title>How I Spend My Time</title>
+<meta charset="utf-8">
+<style>
+@font-face {
+  font-family: Myriad_Pro_Condensed;
+  src: url('MyriadPro-Cond.otf');
+}
+
+@font-face {
+  font-family: Proxima_Nova_Light;
+  src: url('ProximaNova-Light.otf');
+}
+
+h1 {
+  font-size: 300%;
+  font-family: Myriad_Pro_Condensed;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 150%;
+  font-family: Proxima_Nova_Light, Helvetica, sans-serif;;
+  font-weight: 100;
+}
+
+circle {
+  fill: #CCC;
+  fill-opacity: .25;
+  stroke: #BBB;
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: #ff7f0e;
+  fill-opacity: 1;
+}
+
+text {
+  font-size: 60%;
+  font-family: Proxima_Nova_Light, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+</style>
+<body>
+
+<h1>How I Spend My Time</h1>
+<h2>2 Week Snapshot with Reporter App for iPhone</h2>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var diameter = 700,
+    format = d3.format(",d");
+
+var pack = d3.layout.pack()
+    .size([diameter - 4, diameter - 4])
+    .value(function(d) { return d.size; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+  .append("g")
+    .attr("transform", "translate(2,2)");
+
+d3.json("data.json", function(error, root) {
+  var node = svg.datum(root).selectAll(".node")
+      .data(pack.nodes)
+    .enter().append("g")
+      .attr("class", function(d) { return d.children ? "node" : "leaf node"; })
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  node.append("title")
+      .text(function(d) { return d.name + (d.children ? "" : ": " + format(d.size)); });
+
+  node.append("circle")
+      .attr("r", function(d) { return d.r; });
+
+  node.filter(function(d) { return !d.children; }).append("text")
+      .attr("dy", ".3em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.name.substring(0, d.r / 3); });
+});
+
+d3.select(self.frameElement).style("height", diameter + "px");
+
+
+
+</script>
+</body>
+</html>

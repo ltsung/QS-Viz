@@ -1,0 +1,144 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "resting",
+                            "size": 10
+                        },
+                        {
+                            "name": "eating",
+                            "size": 1
+                        },
+                        {
+                            "name": "reading the bible",
+                            "size": 1
+                        },
+                        {
+                            "name": "listening to Church podcast",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "misc",
+                    "size": 9
+                },
+                {
+                    "name": "javascript training",
+                    "size": 3
+                },
+                {
+                    "name": "eating",
+                    "size": 6
+                },
+                {
+                    "name": "designing",
+                    "size": 13
+                },
+                {
+                    "name": "walking",
+                    "size": 1
+                },
+                {
+                    "name": "BARTing",
+                    "size": 1
+                },
+                {
+                    "name": "emailing",
+                    "size": 1
+                },
+                {
+                    "name": "getting ready",
+                    "size": 9
+                },
+                {
+                    "children": [
+                        {
+                            "name": "reflecting",
+                            "size": 12
+                        },
+                        {
+                            "name": "talking on phone",
+                            "size": 1
+                        },
+                        {
+                            "name": "walking",
+                            "size": 1
+                        },
+                        {
+                            "name": "designing",
+                            "size": 2
+                        },
+                        {
+                            "name": "getting ready",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "coding for fun",
+                    "size": 4
+                },
+                {
+                    "name": "meeting",
+                    "size": 5
+                },
+                {
+                    "children": [
+                        {
+                            "name": "hanging out",
+                            "size": 3
+                        },
+                        {
+                            "name": "reflecting",
+                            "size": 1
+                        },
+                        {
+                            "name": "eating",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "coding",
+                    "size": 4
+                },
+                {
+                    "name": "playing threes",
+                    "size": 4
+                },
+                {
+                    "name": "praying",
+                    "size": 1
+                },
+                {
+                    "name": "watching a movie",
+                    "size": 3
+                },
+                {
+                    "name": "driving",
+                    "size": 1
+                },
+                {
+                    "name": "waiting for food",
+                    "size": 1
+                },
+                {
+                    "name": "shopping",
+                    "size": 1
+                },
+                {
+                    "name": "listening to Church podcast",
+                    "size": 2
+                },
+                {
+                    "name": "showering",
+                    "size": 1
+                }
+            ]
+        }
+    ]
+}

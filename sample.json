@@ -1,0 +1,18 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "name": "Test",
+     "size": 3938
+    },
+    {
+      "name": "BetweennessCentrality",
+      "size": 3534 
+    },
+    {
+      "name": "AspectRatioBanker",
+      "size": 7074
+    }]
+   }
+]}  
