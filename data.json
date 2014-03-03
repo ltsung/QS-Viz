@@ -6,71 +6,87 @@
                     "children": [
                         {
                             "name": "resting",
-                            "size": 10
+                            "size": 10,
+                            "color": "bed,laptop"
                         },
                         {
                             "name": "eating",
-                            "size": 1
+                            "size": 1,
+                            "color": null
                         },
                         {
                             "name": "reading the bible",
-                            "size": 1
+                            "size": 1,
+                            "color": null
                         },
                         {
                             "name": "listening to Church podcast",
-                            "size": 1
+                            "size": 1,
+                            "color": "bed,laptop"
                         }
                     ]
                 },
                 {
                     "name": "misc",
-                    "size": 9
+                    "size": 9,
+                    "color": "bed,laptop"
                 },
                 {
                     "name": "javascript training",
-                    "size": 3
+                    "size": 3,
+                    "color": null
                 },
                 {
                     "name": "eating",
-                    "size": 6
+                    "size": 6,
+                    "color": "restaurant chairs,crowd"
                 },
                 {
                     "name": "designing",
-                    "size": 13
+                    "size": 13,
+                    "color": "bed,laptop"
                 },
                 {
                     "name": "walking",
-                    "size": 1
+                    "size": 1,
+                    "color": null
                 },
                 {
                     "name": "BARTing",
-                    "size": 1
+                    "size": 1,
+                    "color": null
                 },
                 {
                     "name": "emailing",
-                    "size": 1
+                    "size": 1,
+                    "color": null
                 },
                 {
                     "name": "getting ready",
-                    "size": 9
+                    "size": 9,
+                    "color": "bed"
                 },
                 {
                     "children": [
                         {
                             "name": "reflecting",
-                            "size": 12
+                            "size": 12,
+                            "color": null
                         },
                         {
                             "name": "talking on phone",
-                            "size": 1
+                            "size": 1,
+                            "color": null
                         },
                         {
                             "name": "walking",
-                            "size": 1
+                            "size": 1,
+                            "color": "cars,parking lot"
                         },
                         {
                             "name": "designing",
-                            "size": 2
+                            "size": 2,
+                            "color": null
                         },
                         {
                             "name": "getting ready",
@@ -80,63 +96,77 @@
                 },
                 {
                     "name": "coding for fun",
-                    "size": 4
+                    "size": 4,
+                    "color": "bed,laptop"
                 },
                 {
                     "name": "meeting",
-                    "size": 5
+                    "size": 5,
+                    "color": "studio,desks"
                 },
                 {
                     "children": [
                         {
                             "name": "hanging out",
-                            "size": 3
+                            "size": 3,
+                            "color": "cafe"
                         },
                         {
                             "name": "reflecting",
-                            "size": 1
+                            "size": 1,
+                            "color": null
                         },
                         {
                             "name": "eating",
-                            "size": 1
+                            "size": 1,
+                            "color": null
                         }
                     ]
                 },
                 {
                     "name": "coding",
-                    "size": 4
+                    "size": 4,
+                    "color": "studio,desks"
                 },
                 {
                     "name": "playing threes",
-                    "size": 4
+                    "size": 4,
+                    "color": "bed,laptop"
                 },
                 {
                     "name": "praying",
-                    "size": 1
+                    "size": 1,
+                    "color": "bed"
                 },
                 {
                     "name": "watching a movie",
-                    "size": 3
+                    "size": 3,
+                    "color": "bed,laptop"
                 },
                 {
                     "name": "driving",
-                    "size": 1
+                    "size": 1,
+                    "color": null
                 },
                 {
                     "name": "waiting for food",
-                    "size": 1
+                    "size": 1,
+                    "color": "cafe"
                 },
                 {
                     "name": "shopping",
-                    "size": 1
+                    "size": 1,
+                    "color": null
                 },
                 {
                     "name": "listening to Church podcast",
-                    "size": 2
+                    "size": 2,
+                    "color": "bed,laptop"
                 },
                 {
                     "name": "showering",
-                    "size": 1
+                    "size": 1,
+                    "color": null
                 }
             ]
         }
