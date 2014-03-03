@@ -14,6 +14,11 @@
   src: url('ProximaNova-Light.otf');
 }
 
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
+
 h1 {
   font-size: 300%;
   font-family: Myriad_Pro_Condensed;
@@ -22,7 +27,7 @@ h1 {
 
 h2 {
   font-size: 150%;
-  font-family: Proxima_Nova_Light, Helvetica, sans-serif;;
+  font-family: Proxima_Nova_Light, Helvetica, sans-serif;
   font-weight: 100;
   margin-top: -30px;
 }
@@ -46,11 +51,42 @@ text {
   fill: #FFF;
 }
 
+#viz { 
+  float: left;
+}
+
+#legend {
+  float: left;
+  list-style: none;
+}
+
+#legend li {
+  font-family:  Proxima_Nova_Light, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 95%;
+  color: #FFF; 
+  padding: 5px 3px 3px 5px;
+  width: 130px;
+}
+
 </style>
 <body>
 
 <h1>How I Spend My Time</h1>
-<h2>2 Week Snapshot with Reporter App for iPhone</h2>
+<h2>Prototype for a 2 Week Snapshot with Reporter App for iPhone</h2>
+
+<div id="viz"></div>
+
+<ul id="legend">
+ <li style="background: #199DA6;">home</li>
+ <li style="background: #985394;">work</li>
+ <li style="background: #F6947A;">parents</li>
+ <li style="background: #DD5333;">cafe</li>
+ <li style="background: #851946;">restaurant</li>
+ <li style="background: #F373A1;">mall</li>
+ <li style="background: #AAAAAA;">miscellaneous</li> 
+</ul>
+
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
@@ -62,7 +98,7 @@ var pack = d3.layout.pack()
     .size([diameter - 4, diameter - 4])
     .value(function(d) { return d.size; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#viz").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
@@ -110,7 +146,7 @@ d3.json("data.json", function(error, root) {
          }
          
          else if (this.className.animVal === "mall") {
-	         return "#F9C9D1";
+	         return "#F373A1";
          }
 
       
