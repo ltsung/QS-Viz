@@ -28,14 +28,14 @@ h2 {
 }
 
 circle {
-  fill: #CCC;
+  fill: #EEE;
   fill-opacity: .25;
-  stroke: #BBB;
+  stroke: #FFF;
   stroke-width: 1px;
 }
 
 .leaf circle {
-  fill: #CCC;
+  fill: #EEE;
   fill-opacity: 1;
 }
 
@@ -43,6 +43,7 @@ text {
   font-size: 60%;
   font-family: Proxima_Nova_Light, Helvetica, sans-serif;
   text-transform: uppercase;
+  fill: #FFF;
 }
 
 </style>
@@ -91,30 +92,30 @@ d3.json("data.json", function(error, root) {
          console.log(this.className.animVal);
          
          if (this.className.animVal === "home") {
-	         return "red";
+	         return "#199DA6";
          }
          else if (this.className.animVal === "work") {
-	         return "orange";
+	         return "#985394";
          }
          else if (this.className.animVal === "parents") {
-	         return "green";
+	         return "#F6947A";
          }
          
          else if (this.className.animVal === "cafe") {
-	         return "pink";
+	         return "#DD5333";
          }
          
          else if (this.className.animVal === "restaurant") {
-	         return "blue";
+	         return "#851946";
          }
          
          else if (this.className.animVal === "mall") {
-	         return "yellow";
+	         return "#F9C9D1";
          }
 
       
 	    // default
-	    return "#CCC";
+	    return "#AAA";
       });
 
   node.filter(function(d) { return !d.children; }).append("text")
