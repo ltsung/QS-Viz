@@ -7,7 +7,7 @@
                         {
                             "name": "resting",
                             "size": 10,
-                            "color": "bed,laptop"
+                            "color": "home"
                         },
                         {
                             "name": "eating",
@@ -17,19 +17,19 @@
                         {
                             "name": "reading the bible",
                             "size": 1,
-                            "color": null
+                            "color": "home"
                         },
                         {
                             "name": "listening to Church podcast",
                             "size": 1,
-                            "color": "bed,laptop"
+                            "color": "home"
                         }
                     ]
                 },
                 {
                     "name": "misc",
                     "size": 9,
-                    "color": "bed,laptop"
+                    "color": null
                 },
                 {
                     "name": "javascript training",
@@ -39,12 +39,12 @@
                 {
                     "name": "eating",
                     "size": 6,
-                    "color": "restaurant chairs,crowd"
+                    "color": "restaurant"
                 },
                 {
                     "name": "designing",
                     "size": 13,
-                    "color": "bed,laptop"
+                    "color": "home"
                 },
                 {
                     "name": "walking",
@@ -59,50 +59,51 @@
                 {
                     "name": "emailing",
                     "size": 1,
-                    "color": null
+                    "color": "home"
                 },
                 {
                     "name": "getting ready",
                     "size": 9,
-                    "color": "bed"
+                    "color": "home"
                 },
                 {
                     "children": [
                         {
                             "name": "reflecting",
                             "size": 12,
-                            "color": null
+                            "color": "parents"
                         },
                         {
                             "name": "talking on phone",
                             "size": 1,
-                            "color": null
+                            "color": "home"
                         },
                         {
                             "name": "walking",
                             "size": 1,
-                            "color": "cars,parking lot"
+                            "color": null
                         },
                         {
                             "name": "designing",
                             "size": 2,
-                            "color": null
+                            "color": "parents"
                         },
                         {
                             "name": "getting ready",
-                            "size": 1
+                            "size": 1,
+                            "color": "home"
                         }
                     ]
                 },
                 {
                     "name": "coding for fun",
                     "size": 4,
-                    "color": "bed,laptop"
+                    "color": "home"
                 },
                 {
                     "name": "meeting",
                     "size": 5,
-                    "color": "studio,desks"
+                    "color": "work"
                 },
                 {
                     "children": [
@@ -114,7 +115,7 @@
                         {
                             "name": "reflecting",
                             "size": 1,
-                            "color": null
+                            "color": "home"
                         },
                         {
                             "name": "eating",
@@ -126,22 +127,22 @@
                 {
                     "name": "coding",
                     "size": 4,
-                    "color": "studio,desks"
+                    "color": "work"
                 },
                 {
                     "name": "playing threes",
                     "size": 4,
-                    "color": "bed,laptop"
+                    "color": "home"
                 },
                 {
                     "name": "praying",
                     "size": 1,
-                    "color": "bed"
+                    "color": "home"
                 },
                 {
                     "name": "watching a movie",
                     "size": 3,
-                    "color": "bed,laptop"
+                    "color": "home"
                 },
                 {
                     "name": "driving",
@@ -156,17 +157,17 @@
                 {
                     "name": "shopping",
                     "size": 1,
-                    "color": null
+                    "color": "mall"
                 },
                 {
                     "name": "listening to Church podcast",
                     "size": 2,
-                    "color": "bed,laptop"
+                    "color": "home"
                 },
                 {
                     "name": "showering",
                     "size": 1,
-                    "color": null
+                    "color": "home"
                 }
             ]
         }

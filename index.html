@@ -24,6 +24,7 @@ h2 {
   font-size: 150%;
   font-family: Proxima_Nova_Light, Helvetica, sans-serif;;
   font-weight: 100;
+  margin-top: -30px;
 }
 
 circle {
@@ -34,7 +35,7 @@ circle {
 }
 
 .leaf circle {
-  fill: #ff7f0e;
+  fill: #CCC;
   fill-opacity: 1;
 }
 
@@ -67,17 +68,54 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(2,2)");
 
 d3.json("data.json", function(error, root) {
+
+
   var node = svg.datum(root).selectAll(".node")
       .data(pack.nodes)
     .enter().append("g")
       .attr("class", function(d) { return d.children ? "node" : "leaf node"; })
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-
+      
   node.append("title")
       .text(function(d) { return d.name + (d.children ? "" : ": " + format(d.size)); });
 
   node.append("circle")
-      .attr("r", function(d) { return d.r; });
+      .attr("r", function(d) { return d.r; })
+      .attr("class", function(d) {
+          if (d.color == null) {
+	        return "default";
+          }
+	      return d.color;
+      })
+      .style("fill", function(d) {
+         console.log(this.className.animVal);
+         
+         if (this.className.animVal === "home") {
+	         return "red";
+         }
+         else if (this.className.animVal === "work") {
+	         return "orange";
+         }
+         else if (this.className.animVal === "parents") {
+	         return "green";
+         }
+         
+         else if (this.className.animVal === "cafe") {
+	         return "pink";
+         }
+         
+         else if (this.className.animVal === "restaurant") {
+	         return "blue";
+         }
+         
+         else if (this.className.animVal === "mall") {
+	         return "yellow";
+         }
+
+      
+	    // default
+	    return "#CCC";
+      });
 
   node.filter(function(d) { return !d.children; }).append("text")
       .attr("dy", ".3em")
@@ -90,5 +128,6 @@ d3.select(self.frameElement).style("height", diameter + "px");
 
 
 </script>
+<script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>
